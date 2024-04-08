@@ -1,3 +1,11 @@
 {
-    "colorscheme": "garro"
+    "*.fsx": {
+        "filetype": "fsharp"
+    },
+    "colorscheme": "garro",
+    "hlsearch": true,
+    "softwrap": true,
+    "statusformatl": " $(filename)($(line),$(col)) $(modified)",
+    "statusformatr": "| $(opt:filetype) | $(opt:encoding) | $(opt:fileformat) ",
+    "tabstopspaces": true
 }

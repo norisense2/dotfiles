@@ -3,9 +3,12 @@
         "filetype": "fsharp"
     },
     "colorscheme": "garro",
+    "ft:kuin": {
+        "commenttype": "; %s"
+    },
     "hlsearch": true,
     "softwrap": true,
     "statusformatl": " $(filename)($(line),$(col)) $(percentage)% $(modified)",
     "statusformatr": "| $(opt:fileformat) | $(opt:encoding) | $(opt:filetype) ",
-    "tabstopspaces": true
+    "tabstospaces": true
 }

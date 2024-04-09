@@ -5,7 +5,7 @@
     "colorscheme": "garro",
     "hlsearch": true,
     "softwrap": true,
-    "statusformatl": " $(filename)($(line),$(col)) $(modified)",
-    "statusformatr": "| $(opt:filetype) | $(opt:encoding) | $(opt:fileformat) ",
+    "statusformatl": " $(filename)($(line),$(col)) $(percentage)% $(modified)",
+    "statusformatr": "| $(opt:fileformat) | $(opt:encoding) | $(opt:filetype) ",
     "tabstopspaces": true
 }

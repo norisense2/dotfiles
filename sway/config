@@ -25,7 +25,7 @@ set $menu dmenu_path | bemenu | xargs swaymsg exec --
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # User-preferred wallpaper
-output * bg /usr/share/backgrounds/1708679184149347.jpeg fill
+output * bg /usr/share/backgrounds/1708679184149347_darkened.jpeg fill
 #
 # Example configuration:
 #

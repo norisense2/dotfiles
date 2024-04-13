@@ -107,6 +107,7 @@ input 1:1:AT_Translated_Set_2_keyboard {
     bindsym $mod+Right focus right
     # Or use Xfce-like keybind
     bindsym Mod1+Tab focus right
+    bindsym $mod+Tab focus right
 
     # Move the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left

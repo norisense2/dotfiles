@@ -258,7 +258,8 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T { spawn "foot"; }
     Mod+Return { spawn "foot"; }
-    Mod+D { spawn "fuzzel"; }
+    Mod+F { spawn "fuzzel"; }
+    Mod+D { spawn "discord"; }
     Mod+B { spawn "vivaldi" "--ozone-platform=wayland"; }
     Super+Alt+L { spawn "swaylock"; }
 
@@ -422,7 +423,7 @@ binds {
     // Mod+BracketRight { consume-or-expel-window-right; }
 
     Mod+R { switch-preset-column-width; }
-    Mod+F { maximize-column; }
+    Mod+M { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
     Mod+C { center-column; }
 

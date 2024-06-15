@@ -4,6 +4,9 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+# Fcitx5
+exec fcitx5
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -217,7 +220,7 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while echo "wlp2s0: $(ip a|grep wlp2s0|grep -Eo 'state (UP|DOWN)') \| $(cat /sys/class/power_supply/BAT0/capacity)% \| $(date +'%Y-%m-%d %H:%M')"; do sleep 10; done
+    status_command while echo "wlp2s0: $(ip a|grep wlp2s0|grep -Eo 'state (UP|DOWN|DORMANT)') \| $(cat /sys/class/power_supply/BAT0/capacity)% \| $(date +'%Y-%m-%d %H:%M')"; do sleep 10; done
 
     colors {
         statusline #d6d0d0

@@ -7,6 +7,7 @@
         "commenttype": "; %s"
     },
     "hlsearch": true,
+    "lsp.server": "ocaml=ocaml-lsp-server",
     "softwrap": true,
     "statusformatl": " $(filename)($(line),$(col)) $(percentage)% $(modified)",
     "statusformatr": "| $(opt:fileformat) | $(opt:encoding) | $(opt:filetype) ",

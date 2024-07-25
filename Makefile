@@ -1,7 +1,7 @@
 CWD = $(shell pwd)
 CONFIGDIR = $(shell echo $${HOME})/.config
 
-all: foot micro sway
+all: foot micro sway fuzzel
 
 foot:
 	@ln -svf $(CWD)/foot/foot.ini $(CONFIGDIR)/foot/foot.ini
@@ -15,4 +15,7 @@ sway:
 niri:
 	@ln -svf $(CWD)/niri/config.kdl $(CONFIGDIR)/niri/config.kdl
 
-.PHONY: all foot micro sway niri
+fuzzel:
+	@ln -svf $(CWD)/fuzzel/fuzzel.ini $(CONFIGDIR)/fuzzel/fuzzel.ini
+
+.PHONY: all foot micro sway niri fuzzel
